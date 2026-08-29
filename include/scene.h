@@ -5,5 +5,6 @@ void mountains();
 void ufo(float angle);
 void lake();
 void boat();
+void updateBoat(float deltaTime);
 
 #endif

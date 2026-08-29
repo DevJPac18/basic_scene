@@ -29,6 +29,8 @@ void update(int value)
 	if (angle >= 360)
 		angle = 0;
 
+	updateBoat(0.016f);
+	
 	glutPostRedisplay();
 	glutTimerFunc(16, update, 0);
 }
